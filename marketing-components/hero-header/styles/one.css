@@ -1,0 +1,45 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 64px;
+    background-image: url("../assets/images/chappell-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.aside-content{
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+.aside-actions{
+    display: flex;
+    gap: 16px;
+}
+button{
+    padding: 12px 24px ;
+    border: 1px solid #000000;
+    font-size: 16px;
+}
+.btn-primary{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-style: 56px;
+    font-weight: 700;
+}
+p{
+    font-style: 18px;
+    font-weight: 400;
+}
